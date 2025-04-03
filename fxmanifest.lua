@@ -7,6 +7,7 @@ client_script 'client/main.lua'
 server_script 'server/main.lua'
 
 shared_scripts {
+	'config.lua',
     '@es_extended/imports.lua',
 	'@es_extended/locale.lua',
 }
